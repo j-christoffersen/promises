@@ -53,7 +53,7 @@ describe('Basic chaining', function() {
     });
 
     afterEach(function() {
-      fs.writeFileSync(fileToWriteTo, '');
+      //fs.writeFileSync(fileToWriteTo, '');
     });
 
     // Restore HTTP requests to their normal unmocked behavior
